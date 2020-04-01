@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test 3</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" />
+    <style>
+        h5 {
+            font-size: 24px;
+        }
+
+        hr {
+            margin: 5px;
+        }
+
+        .specification-col {
+            margin-bottom: 30px;
+        }
+
+        .product-price {
+            color: red;
+            margin-bottom: 8px;
+        }
+
+        .specifications-name {
+            font-size: 24px;
+            padding-left: 15px;
+        }
+
+        .specifications-name p {
+            margin-bottom: 0px;
+        }
+
+        .product-desc {
+            font-size: 18px;
+        }
+
+        .product-specification {
+            font-size: 18px;
+        }
+
+        .product-specification tr {
+            font-size: 18px;
+        }
+
+        @media only screen and (max-width: 768px) {
+            .row {
+                padding: 15px;
+            }
+
+            .specifications-name {
+                padding-left: 3.5px;
+            }
+
+            .col-md-6 {
+                padding: 3.5px;
+
+            }
+        }
+    </style>
+    <link rel="stylesheet" href="product_detail.css">
+</head>
+
+<body>
+    <header>
+        <div class="container-fluid p-0">
+            <nav class="navbar navbar-expand-lg">
+                <div class="btn" style="white-space:nowrap">
+                    <i class="fab fa-facebook-f nav-link"></i>
+                    <i class="fab fa-twitter nav-link"></i>
+                    <i class="fab fa-instagram nav-link"></i>
+                </div>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <i class="fas fa-align-right text-dark"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <div class="mr-auto"></div>
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Artwork</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Exhibition</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Meet the Artist</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Customisation</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Join Us</a>
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+            <div class="brand-name" style="padding-top:7.5rem">
+                <a href=".">
+                    <h1>Blaisha Artworks!</h1>
+                    <br>
+                    <h5>The art you love!</h5>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <div class="container specification-col">
+        <div class="row">
+            <div class="col-lg-5 col-md-6">
+                <div class="img-card-product">
+                    <img src="images/style.jpg" alt="Denim Jeans" style="width:100%">
+                </div>
+            </div>
+            <div class="col-lg-7 col-md-6">
+                <hr>
+                <div class="product-info">
+                    <h5>Product Name</h5>
+                </div>
+
+                <div class="product-price">
+                    <h5>$59.99</h5>
+                </div>
+                <div class="product-desc">
+                    <p>
+                        <span>100% cotton double printed dress. Black and white striped top and orange high waisted
+                            skater skirt bottom. Lorem ipsum dolor sit amet, consectetur adipisicing elit. quibusdam
+                            corporis, earum facilis et nostrum dolorum accusamus similique eveniet quia pariatur.
+                        </span>
+                    </p><strong>Dimension: </strong>57x65 inch</p>
+                    <hr>
+                </div>
+            </div>
+        </div>
+        <br>
+        <h5 class="specifications-name">
+            <p>Specifications</p>
+        </h5>
+        <div class="col-md-6">
+            <hr>
+            <div class="product-specification">
+                <table>
+
+                    <tr>
+                        <td>SKU:</th>
+                        <td>ART_1882_30526</th>
+                    </tr>
+                    <tr>
+                        <td>Availability:</td>
+                        <td>Delivered within 7-10 days when ordered.</td>
+                    </tr>
+                    <tr>
+                        <td>Quality:</td>
+                        <td>100% Handpainted</td>
+                    </tr>
+                    <tr>
+                        <td>Size:</td>
+                        <td>11in Width X 9in Height.</td>
+                    </tr>
+                    <tr>
+                        <td>Medium:</td>
+                        <td>Poster Colors</td>
+                    </tr>
+                    <tr>
+                        <td>Surface:</td>
+                        <td>Canvas</td>
+                    </tr>
+                    <tr>
+                        <td>Artist:</td>
+                        <td>ANAS KHAN BABI</td>
+                    </tr>
+                    <tr>
+                        <td>Return Policy:</td>
+                        <td>15 Days if ordered as Unframed. Not applicable if ordered as Framed or in Custom Size,
+                            or if delivery is outside India.</td>
+                    </tr>
+                    <tr>
+                        <td>Customizable:</td>
+                        <td>It can be customized. Contact us to get quote.</td>
+                    </tr>
+                    <tr>
+                        <td>Artist Sign and Certificate:</td>
+                        <td>Provided.</td>
+                    </tr>
+
+                </table>
+            </div>
+
+        </div>
+
+    </div>
+
+    <footer>
+        <!-- <div class="container-fluid p-0"> -->
+        <div class="row text-left">
+            <div class="col-md-5 col-sm-5">
+                <h4 class="text-light">About us</h4>
+                <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Earum maxime ea
+                    similique
+                    illum corrupti</p>
+                <p class="pt-4 text-muted">Copyright ©2019 All rights reserved | This template is made with by
+                    <span> RushOne</span>
+                </p>
+            </div>
+            <div class="col-md-5 col-sm-12">
+                <h4 class="text-light">Newsletter</h4>
+                <p class="text-muted">Stay Updated</p>
+                <form class="form-inline">
+                    <div class="col pl-0">
+                        <div class="input-group pr-5">
+                            <input type="text" class="form-control bg-dark text-white"
+                                id="inlineFormInputGroupUsername2" placeholder="Email">
+                            <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <i class="fas fa-arrow-right"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="col-md-2 col-sm-12">
+                <h4 class="text-light">Follow Us</h4>
+                <p class="text-muted">Let us be social</p>
+                <div class="column text-light" style="white-space:nowrap">
+                    <i class="fab fa-facebook-f"></i>
+                    <i class="fab fa-instagram"></i>
+                    <i class="fab fa-twitter"></i>
+                    <i class="fab fa-youtube"></i>
+                </div>
+            </div>
+        </div>
+        <!-- </div> -->
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
